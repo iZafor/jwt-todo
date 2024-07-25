@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Todo App</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="task.js" defer></script>
+    </head>
+    <body>
+        <div class="main-container">
+            <form method="post">
+                <div class="input-group">
+                    <label for="task">Task</label>
+                    <div class="input-sub-group">
+                        <input
+                            type="text"
+                            name="task"
+                            id="task"
+                            autocomplete="off"
+                        />
+                        <img id="add-new-task" src="images/add.png" />
+                    </div>
+                </div>
+            </form>
+            <div class="tasks"></div>
+        </div>
+        <div class="logout-container">
+            <button id="logout-button">Logout</button>
+        </div>
+    </body>
+</html>
